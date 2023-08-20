@@ -1,3 +1,18 @@
 .stats-wrap {
   display: flex;
+  .column {
+    width: 100px;
+    margin: 3px;
+    border: 1px solid black;
+    .stat-name {
+      padding: 10px;
+      text-align: center;
+    }
+    .each-player {
+      padding: 10px;
+      text-align: center;
+      border-top: 1px solid black;
+      width: 100px;
+    }
+  }
 }
